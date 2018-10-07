@@ -10,7 +10,7 @@
       {% for item in list %}
         <li class="item">
           <a href="{{ item.url }}"  target="_blank">{{ item.title }}  </a>
-          <p>访问量{{item.count}}</p>
+          <p>访问量:{{item.count}}</p>
         </li>
       {% endfor %}
     </ul>

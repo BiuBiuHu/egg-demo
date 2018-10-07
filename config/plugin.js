@@ -12,3 +12,7 @@ exports.http = {
   package: 'egg-axios'
 }
 
+exports.xtpl = {
+  enable: true,
+  package: 'egg-view-xtpl',
+};

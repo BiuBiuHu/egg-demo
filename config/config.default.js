@@ -13,6 +13,7 @@ module.exports = appInfo => {
     defaultViewEngine: 'nunjucks',
     mapping: {
       '.tpl': 'nunjucks',
+      '.xtpl': 'xtpl',
     },
   };
   
